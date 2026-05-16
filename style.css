@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    background: #0d1b2a;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #14213d;
+}
+
+.logo {
+    color: #ff6b81;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+/* Text */
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text span {
+    background: linear-gradient(to right, #ff6b81, #ff9f43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.primary {
+    background: linear-gradient(to right, #ff6b81, #ff9f43);
+    color: #fff;
+}
+
+.outline {
+    border: 2px solid #ff6b81;
+    color: #ff6b81;
+}
+
+.outline:hover {
+    background: #ff6b81;
+    color: #fff;
+}
+
+/* Image */
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #ff6b81;
+    object-fit: cover;
+}
+ {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0f1a;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: #0b0f1a;
+}
+
+.logo {
+    color: #F13E93;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Title */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #F13E93;
+}
+
+.subtitle {
+    color: #aaa;
+}
+
+/* Buttons */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: 2px solid #F13E93;
+    border-radius: 30px;
+    color: #F13E93;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #F13E93;
+    color: #000;
+}
+
+.primary {
+    background: #F13E93;
+    color: #000;
+}
